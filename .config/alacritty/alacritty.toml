@@ -4,3 +4,6 @@ import = [
 
 [font]
 normal = { family = "Hack Nerd Font", style = "Regular" }
+
+[window]
+option_as_alt = "OnlyLeft"
