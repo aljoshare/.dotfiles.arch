@@ -1,5 +1,7 @@
 .cache
+.cargo
 .local
-.ssh
 .mozilla
 .oh-my-zsh
+.rustup
+.ssh
