@@ -1,23 +1,21 @@
-# Newsboat colour scheme to work with the Gruvbox palette
-# Inspired by the vim theme https://github.com/morhetz/gruvbox
-# Tested with the Kitty gruvbox terminal colour scheme
-# https://github.com/wdomitrz/kitty-gruvbox-theme
+color listnormal         color15 default
+color listnormal_unread  color2  default
+color listfocus_unread   color2  color0
+color listfocus          default color0
+color background         default default
+color article            default default
+color end-of-text-marker color8  default
+color info               color4  color8
+color hint-separator     default color8
+color hint-description   default color8
+color title              color14 color8
 
-color background          color223   color0
-color listnormal          color223   color0
-color listnormal_unread   color2     color0
-color listfocus           color196   color237
-color listfocus_unread    color196   color237
-color info                color8     color0
-color article             color223   color0
+highlight article "^(Feed|Title|Author|Link|Date): .+" color4 default bold
+highlight article "^(Feed|Title|Author|Link|Date):" color14 default bold
 
-# highlights
-highlight article "^(Feed|Link):.*$" color11 default bold
-highlight article "^(Title|Date|Author):.*$" color11 default bold
-highlight article "https?://[^ ]+" color2 default underline
-highlight article "\\[[0-9]+\\]" color2 default bold
-highlight article "\\[image\\ [0-9]+\\]" color2 default bold
-highlight feedlist "^─.*$" color6 color6 bold
+highlight article "\\((link|image|video)\\)" color8 default
+highlight article "https?://[^ ]+" color4 default
+highlight article "\[[0-9]+\]" color6 default bold
 
 auto-reload yes
 reload-time 1
