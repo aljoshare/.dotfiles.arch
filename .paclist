@@ -71,6 +71,7 @@ sherlock 1:0.15.0-4
 sn0int 0.26.1-1
 sof-firmware 2025.01.1-1
 subfinder 1:v2.6.7.r104.g98e67890-1
+systemd-resolvconf 257.6-1
 tcpdump 4.99.5-1
 ttf-font-awesome 6.7.2-1
 ttf-hack-nerd 3.4.0-1
@@ -82,6 +83,7 @@ visual-studio-code-bin 1.100.3-1
 waybar 0.12.0-1
 wget 1.25.0-2
 whois 5.6.1-1
+wireguard-tools 1.0.20250521-1
 wireplumber 0.5.10-1
 wireshark-qt 4.4.7-1
 wofi 1.4.1-1
