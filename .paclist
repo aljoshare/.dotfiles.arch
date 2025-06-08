@@ -51,6 +51,7 @@ pipewire-alsa 1:1.4.5-1
 pipewire-jack 1:1.4.5-1
 pipewire-pulse 1:1.4.5-1
 podman 5.5.0-2
+pre-commit 4.2.0-1
 protobuf 31.0-2
 protobuf-c 1.5.2-3
 python-pip 25.1.1-1
