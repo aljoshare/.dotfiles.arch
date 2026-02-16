@@ -1,9 +1,0 @@
-layout {
-    pane split_direction="vertical" {
-    pane size="70%"
-    pane size="30%" split_direction="horizontal" {
-     pane size="33%" command="btop"
-     pane size="33%" command="lazygit"
-    }
-    }
-}

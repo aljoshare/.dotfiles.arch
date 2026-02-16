@@ -1,0 +1,26 @@
+version: "3"
+
+tasks:
+  setup:
+    desc: Create venv and install dependencies
+    cmds:
+      - python -m venv .venv
+      - .venv/bin/pip install pyyaml
+      - curl -sSfL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/scripts/install.sh | sh -s -- -b .bin
+    sources:
+      - Taskfile.yml
+    generates:
+      - .venv/bin/python
+      - .bin/trufflehog
+
+  sync:
+    desc: Sync dotfiles from $HOME into the repo
+    deps: [setup]
+    cmds:
+      - .venv/bin/python sync.py {{.CLI_ARGS}}
+
+  secrets:
+    desc: Run secrets detection with TruffleHog
+    deps: [setup]
+    cmds:
+      - .bin/trufflehog git file://. --since-commit HEAD --results=verified,unknown --fail --no-update

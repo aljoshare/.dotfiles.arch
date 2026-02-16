@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 320" fill="none">
+  <!-- Background -->
+  <rect width="620" height="320" rx="12" fill="#303446"/>
+
+  <!-- Terminal title bar -->
+  <rect x="16" y="16" width="588" height="28" rx="6" fill="#414559"/>
+  <circle cx="36" cy="30" r="5" fill="#e78284"/>
+  <circle cx="52" cy="30" r="5" fill="#e5c890"/>
+  <circle cx="68" cy="30" r="5" fill="#a6d189"/>
+  <text x="310" y="34" font-family="monospace" font-size="11" fill="#626880" text-anchor="middle">alacritty</text>
+
+  <!-- Prompt -->
+  <text x="32" y="72" font-family="monospace" font-size="13" fill="#8caaee">~</text>
+  <text x="46" y="72" font-family="monospace" font-size="13" fill="#a6d189"> $ </text>
+  <text x="72" y="72" font-family="monospace" font-size="13" fill="#c6d0f5">neofetch</text>
+
+  <!-- Arch logo ASCII -->
+  <text x="48" y="106" font-family="monospace" font-size="13" fill="#8caaee">        /\</text>
+  <text x="48" y="122" font-family="monospace" font-size="13" fill="#8caaee">       /  \</text>
+  <text x="48" y="138" font-family="monospace" font-size="13" fill="#8caaee">      /\   \</text>
+  <text x="48" y="154" font-family="monospace" font-size="13" fill="#8caaee">     /  .. \</text>
+  <text x="48" y="170" font-family="monospace" font-size="13" fill="#8caaee">    /  .  .\</text>
+  <text x="48" y="186" font-family="monospace" font-size="13" fill="#8caaee">   / ..    ..\</text>
+  <text x="48" y="202" font-family="monospace" font-size="13" fill="#8caaee">  /.          .\</text>
+
+  <!-- Neofetch info -->
+  <text x="260" y="106" font-family="monospace" font-size="13" fill="#8caaee">OS</text>
+  <text x="310" y="106" font-family="monospace" font-size="13" fill="#c6d0f5">Arch Linux</text>
+  <text x="260" y="126" font-family="monospace" font-size="13" fill="#8caaee">WM</text>
+  <text x="310" y="126" font-family="monospace" font-size="13" fill="#c6d0f5">i3</text>
+  <text x="260" y="146" font-family="monospace" font-size="13" fill="#8caaee">Bar</text>
+  <text x="310" y="146" font-family="monospace" font-size="13" fill="#c6d0f5">Polybar</text>
+  <text x="260" y="166" font-family="monospace" font-size="13" fill="#8caaee">Term</text>
+  <text x="310" y="166" font-family="monospace" font-size="13" fill="#c6d0f5">Alacritty</text>
+  <text x="260" y="186" font-family="monospace" font-size="13" fill="#8caaee">Editor</text>
+  <text x="310" y="186" font-family="monospace" font-size="13" fill="#c6d0f5">micro</text>
+  <text x="260" y="206" font-family="monospace" font-size="13" fill="#8caaee">Git</text>
+  <text x="310" y="206" font-family="monospace" font-size="13" fill="#c6d0f5">Lazygit</text>
+  <text x="260" y="226" font-family="monospace" font-size="13" fill="#8caaee">Theme</text>
+  <text x="310" y="226" font-family="monospace" font-size="13" fill="#c6d0f5">Catppuccin Frappe</text>
+
+  <!-- Color palette swatches -->
+  <rect x="260" y="244" width="24" height="14" rx="3" fill="#e78284"/>
+  <rect x="290" y="244" width="24" height="14" rx="3" fill="#ef9f76"/>
+  <rect x="320" y="244" width="24" height="14" rx="3" fill="#e5c890"/>
+  <rect x="350" y="244" width="24" height="14" rx="3" fill="#a6d189"/>
+  <rect x="380" y="244" width="24" height="14" rx="3" fill="#81c8be"/>
+  <rect x="410" y="244" width="24" height="14" rx="3" fill="#8caaee"/>
+  <rect x="440" y="244" width="24" height="14" rx="3" fill="#ca9ee6"/>
+  <rect x="470" y="244" width="24" height="14" rx="3" fill="#f4b8e4"/>
+
+  <!-- Second prompt -->
+  <text x="32" y="288" font-family="monospace" font-size="13" fill="#8caaee">~</text>
+  <text x="46" y="288" font-family="monospace" font-size="13" fill="#a6d189"> $ </text>
+  <rect x="72" y="276" width="8" height="16" rx="1" fill="#c6d0f5" opacity="0.8"/>
+</svg>

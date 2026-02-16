@@ -136,8 +136,3 @@ action = "ResetFontSize"
 live_config_reload = true
 working_directory = "None"
 import = ["~/.config/alacritty/catppuccin-frappe.toml"]
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Shift"
-chars = "\u001b\r"

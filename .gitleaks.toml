@@ -1,8 +1,1 @@
 title = "Default"
-
-[allowlist]
-paths = [
-  '''.cache/''',
-  '''.local/''',
-  '''.mozilla/''',
-]
